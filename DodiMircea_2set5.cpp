@@ -9,7 +9,7 @@ cin>>n;
 
 int nrbiti=0;
 if(n==0){cout<<"are 1 bit";}
-
+if(n<0){n=-n;}
 while(n!=0)
          {
     n=n>>1;
